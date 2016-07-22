@@ -21,8 +21,8 @@ import org.json.simple.JSONObject;
 @Path("/sessioncredentials")
 public class TokBoxCredentials {
 	
-	final int API_KEY = 45618232;
-	final String API_SECRET = "09f6db96849092b8c0584c63c63e495ebd82961f";
+	final int API_KEY = ;
+	final String API_SECRET = "";
 	String SESSION_ID, TOKEN, jsonOutput, roomDetails = null;
 	
 	ManageSessions hashTableObject = ManageSessions.getInstance(); 
